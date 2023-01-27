@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/* config */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: rgb(251, 164, 177);
+}
+
+/* HEADER */
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* MAIN */
+
+section{
+    padding: 10vh 0 10vh 30px;
+    line-height: 2em;
+    font-family: cursive;
+    font-size: 1.3em;
+}
+
+.padrao{
+    background-color: white;
+}
+
+.padrao > p {
+    padding-left: 10px;
+}
+
+.enfeitado{
+    box-shadow: inset 8px 8px 16px 0px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.enfeitado > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.305);
+    padding: 10px;
+}
+
+#img1 {
+    background-image: url('imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: fixed; 
+    background-size: cover;   
+}
+
+#img2 {
+    background-image: url('imagens/background002.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+}
